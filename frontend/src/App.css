@@ -1,0 +1,67 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #121212;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  color: #ffcc00;
+}
+
+textarea {
+  width: 90%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  background: #ffcc00;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #ffd700;
+}
+
+.results {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.job-card {
+  background: #282828;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  border-left: 5px solid #ffcc00;
+}
+
+.job-card h3 {
+  margin: 0;
+  color: #ffcc00;
+}
+
+.job-card p {
+  margin: 5px 0;
+}
