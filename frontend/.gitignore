@@ -18,14 +18,30 @@
 .env.test.local
 .env.production.local
 
-# Ignore Virtual Environment & Large Libraries
-job-env/
+# Ignore Virtual Environments
 env/
+job-env/
+
+# Ignore Libraries
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Large Files
 *.dll
 *.lib
 *.so
 *.bin
 *.h5
+*.zip
+*.tar.gz
+uploads/
+
+# Ignore Build Files
+dist/
+build/
+
 
 
 npm-debug.log*
