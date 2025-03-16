@@ -18,6 +18,16 @@
 .env.test.local
 .env.production.local
 
+# Ignore Virtual Environment & Large Libraries
+job-env/
+env/
+*.dll
+*.lib
+*.so
+*.bin
+*.h5
+
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
